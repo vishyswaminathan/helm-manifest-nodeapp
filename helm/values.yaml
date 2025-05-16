@@ -1,8 +1,8 @@
-replicaCount: 1
+replicaCount: 2
 
 app:
-  name: pythonapp
-  image: vishyswaminathan/python-image:latest
+  name: nodeapp
+  image: vishyswaminathan/nodeapp:latest
   port: 8080
 
 service:
