@@ -8,7 +8,7 @@ spec:
   project: default  # change if you have a custom ArgoCD project
 
   source:
-    repoURL: git@github.com:vishyswaminathan/helm-manifest-nodeapp.git
+    repoURL: https://github.com/vishyswaminathan/helm-manifest-nodeapp.git
     targetRevision: HEAD
     path: helm  # this is the folder that contains your Helm chart (Chart.yaml + values.yaml)
 
