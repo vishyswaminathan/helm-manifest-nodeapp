@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ .Release.Name }}-deployment
+  name: {{ .Release.Name }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
@@ -13,7 +13,7 @@ spec:
         app: {{ .Release.Name }}
     spec:
       containers:
-      - name: {{ .Release.Name }}
-        image: {{ .Values.app.image }}
-        ports:
-        - containerPort: 8080
+        - name: {{ .Release.Name }}
+          image: {{ .Values.app.image }}
+          ports:
+            - containerPort: 8080
