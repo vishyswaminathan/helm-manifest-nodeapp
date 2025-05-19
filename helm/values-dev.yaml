@@ -1,0 +1,15 @@
+# random
+replicaCount: 1
+
+app:
+  image: vishyswaminathan/nodeapp:dev
+
+resources:
+  limits:
+    cpu: 100m
+    memory: 128Mi
+  requests:
+    cpu: 50m
+    memory: 64Mi
+
+environment: development
