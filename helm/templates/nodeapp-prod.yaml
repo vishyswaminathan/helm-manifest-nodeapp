@@ -1,4 +1,4 @@
-# random
+# random changes
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
