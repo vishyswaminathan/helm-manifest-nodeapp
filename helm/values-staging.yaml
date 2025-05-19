@@ -1,7 +1,7 @@
 replicaCount: 2
 
 app:
-  image: vishyswaminathan/nodeapp:staging
+  image: vishyswaminathan/nodeapp:v30
 
 resources:
   limits:
