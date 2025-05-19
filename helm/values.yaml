@@ -1,11 +1,11 @@
-replicaCount: 2
+#replicaCount: 2
 
-app:
-  name: nodeapp
-  image: vishyswaminathan/nodeapp:v29
-  port: 8080
+#app:
+#  name: nodeapp
+#  image: vishyswaminathan/nodeapp:v29
+# port: 8080
 
-service:
-  type: ClusterIP
-  port: 8080
-  targetPort: 8080
+#service:
+#  type: ClusterIP
+#  port: 8080
+#  targetPort: 8080
