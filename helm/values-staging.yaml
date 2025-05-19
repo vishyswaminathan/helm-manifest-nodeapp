@@ -2,7 +2,7 @@ replicaCount: 2
 
 app:
   name: nodeapp
-  image: vishyswaminathan/nodeapp:v34
+  image: vishyswaminathan/nodeapp:v35
   port: 8080
 
 resources:
