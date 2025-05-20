@@ -4,7 +4,7 @@ app:
   name: nodeapp
   image:
     repository: vishyswaminathan/nodeapp
-    tag: dev
+    tag: "v50"
 
 resources:
   limits:
