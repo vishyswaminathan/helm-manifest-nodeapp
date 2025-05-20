@@ -2,8 +2,9 @@ replicaCount: 1
 
 app:
   name: nodeapp
-  image: vishyswaminathan/nodeapp:dev
-  port: 8080
+  image:
+    repository: vishyswaminathan/nodeapp
+    tag: dev
 
 resources:
   limits:
