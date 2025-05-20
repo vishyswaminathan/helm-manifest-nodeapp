@@ -4,7 +4,7 @@ app:
   name: nodeapp
   image:
     repository: vishyswaminathan/nodeapp
-    tag: prod
+    tag: "prod"  # Will be updated by Jenkins to match the pushed tag
   port: 8080
 
 resources:
