@@ -1,9 +1,10 @@
-## random changes
 replicaCount: 3
 
 app:
   name: nodeapp
-  image: vishyswaminathan/nodeapp:prod
+  image:
+    repository: vishyswaminathan/nodeapp
+    tag: prod
   port: 8080
 
 resources:
