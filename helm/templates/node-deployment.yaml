@@ -1,4 +1,4 @@
-#just normal updates
+#just normal push
 apiVersion: apps/v1
 kind: Deployment
 metadata:
