@@ -4,7 +4,7 @@ app:
   name: nodeapp
   image:
     repository: vishyswaminathan/nodeapp
-    tag: "v3"
+    tag: "v5"
   port: 8080
 
 resources:
